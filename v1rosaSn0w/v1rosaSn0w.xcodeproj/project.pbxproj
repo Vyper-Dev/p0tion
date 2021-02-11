@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20E9566E25D5BC870062C0CA /* cicuta-virosawrap in Frameworks */ = {isa = PBXBuildFile; productRef = 20E9566D25D5BC870062C0CA /* cicuta-virosawrap */; };
 		BED344E625D4BF33004A03D2 /* v1rosaSn0wApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED344E525D4BF33004A03D2 /* v1rosaSn0wApp.swift */; };
 		BED344E825D4BF33004A03D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED344E725D4BF33004A03D2 /* ContentView.swift */; };
 		BED344EA25D4BF37004A03D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED344E925D4BF37004A03D2 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E9566E25D5BC870062C0CA /* cicuta-virosawrap in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +87,9 @@
 			dependencies = (
 			);
 			name = v1rosaSn0w;
+			packageProductDependencies = (
+				20E9566D25D5BC870062C0CA /* cicuta-virosawrap */,
+			);
 			productName = v1rosaSn0w;
 			productReference = BED344E225D4BF33004A03D2 /* v1rosaSn0w.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +117,9 @@
 				Base,
 			);
 			mainGroup = BED344D925D4BF33004A03D2;
+			packageReferences = (
+				20E9566C25D5BC870062C0CA /* XCRemoteSwiftPackageReference "testwrapper" */,
+			);
 			productRefGroup = BED344E325D4BF33004A03D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -326,6 +334,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20E9566C25D5BC870062C0CA /* XCRemoteSwiftPackageReference "testwrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/K0stad1n/testwrapper.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		20E9566D25D5BC870062C0CA /* cicuta-virosawrap */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E9566C25D5BC870062C0CA /* XCRemoteSwiftPackageReference "testwrapper" */;
+			productName = "cicuta-virosawrap";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BED344DA25D4BF33004A03D2 /* Project object */;
 }
