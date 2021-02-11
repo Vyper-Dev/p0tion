@@ -3,120 +3,113 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BED344E625D4BF33004A03D2 /* v1rosaSn0wApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED344E525D4BF33004A03D2 /* v1rosaSn0wApp.swift */; };
-		BED344E825D4BF33004A03D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED344E725D4BF33004A03D2 /* ContentView.swift */; };
-		BED344EA25D4BF37004A03D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED344E925D4BF37004A03D2 /* Assets.xcassets */; };
-		BED344ED25D4BF37004A03D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED344EC25D4BF37004A03D2 /* Preview Assets.xcassets */; };
-		BEEC9A8B25D5CE320023EEDA /* cicutavirosawrap in Frameworks */ = {isa = PBXBuildFile; productRef = BEEC9A8A25D5CE320023EEDA /* cicutavirosawrap */; };
+		BEEC9A9C25D5D02E0023EEDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC9A9B25D5D02E0023EEDA /* AppDelegate.m */; };
+		BEEC9A9F25D5D02E0023EEDA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC9A9E25D5D02E0023EEDA /* SceneDelegate.m */; };
+		BEEC9AA225D5D02E0023EEDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC9AA125D5D02E0023EEDA /* ViewController.m */; };
+		BEEC9AA525D5D02E0023EEDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEC9AA325D5D02E0023EEDA /* Main.storyboard */; };
+		BEEC9AA725D5D0330023EEDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEC9AA625D5D0330023EEDA /* Assets.xcassets */; };
+		BEEC9AAA25D5D0330023EEDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEC9AA825D5D0330023EEDA /* LaunchScreen.storyboard */; };
+		BEEC9AAD25D5D0330023EEDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC9AAC25D5D0330023EEDA /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BED344E225D4BF33004A03D2 /* v1rosaSn0w.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = v1rosaSn0w.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BED344E525D4BF33004A03D2 /* v1rosaSn0wApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v1rosaSn0wApp.swift; sourceTree = "<group>"; };
-		BED344E725D4BF33004A03D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BED344E925D4BF37004A03D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BED344EC25D4BF37004A03D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BED344EE25D4BF37004A03D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEC9A9725D5D02E0023EEDA /* v1rosaSn0w.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = v1rosaSn0w.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEC9A9A25D5D02E0023EEDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEEC9A9B25D5D02E0023EEDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEEC9A9D25D5D02E0023EEDA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BEEC9A9E25D5D02E0023EEDA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BEEC9AA025D5D02E0023EEDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEEC9AA125D5D02E0023EEDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEEC9AA425D5D02E0023EEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEEC9AA625D5D0330023EEDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEEC9AA925D5D0330023EEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEEC9AAB25D5D0330023EEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEC9AAC25D5D0330023EEDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BED344DF25D4BF33004A03D2 /* Frameworks */ = {
+		BEEC9A9425D5D02E0023EEDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEEC9A8B25D5CE320023EEDA /* cicutavirosawrap in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BED344D925D4BF33004A03D2 = {
+		BEEC9A8E25D5D02E0023EEDA = {
 			isa = PBXGroup;
 			children = (
-				BED344E425D4BF33004A03D2 /* v1rosaSn0w */,
-				BED344E325D4BF33004A03D2 /* Products */,
-				BEEC9A8925D5CE320023EEDA /* Frameworks */,
+				BEEC9A9925D5D02E0023EEDA /* v1rosaSn0w */,
+				BEEC9A9825D5D02E0023EEDA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BED344E325D4BF33004A03D2 /* Products */ = {
+		BEEC9A9825D5D02E0023EEDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BED344E225D4BF33004A03D2 /* v1rosaSn0w.app */,
+				BEEC9A9725D5D02E0023EEDA /* v1rosaSn0w.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BED344E425D4BF33004A03D2 /* v1rosaSn0w */ = {
+		BEEC9A9925D5D02E0023EEDA /* v1rosaSn0w */ = {
 			isa = PBXGroup;
 			children = (
-				BED344E525D4BF33004A03D2 /* v1rosaSn0wApp.swift */,
-				BED344E725D4BF33004A03D2 /* ContentView.swift */,
-				BED344E925D4BF37004A03D2 /* Assets.xcassets */,
-				BED344EE25D4BF37004A03D2 /* Info.plist */,
-				BED344EB25D4BF37004A03D2 /* Preview Content */,
+				BEEC9A9A25D5D02E0023EEDA /* AppDelegate.h */,
+				BEEC9A9B25D5D02E0023EEDA /* AppDelegate.m */,
+				BEEC9A9D25D5D02E0023EEDA /* SceneDelegate.h */,
+				BEEC9A9E25D5D02E0023EEDA /* SceneDelegate.m */,
+				BEEC9AA025D5D02E0023EEDA /* ViewController.h */,
+				BEEC9AA125D5D02E0023EEDA /* ViewController.m */,
+				BEEC9AA325D5D02E0023EEDA /* Main.storyboard */,
+				BEEC9AA625D5D0330023EEDA /* Assets.xcassets */,
+				BEEC9AA825D5D0330023EEDA /* LaunchScreen.storyboard */,
+				BEEC9AAB25D5D0330023EEDA /* Info.plist */,
+				BEEC9AAC25D5D0330023EEDA /* main.m */,
 			);
 			path = v1rosaSn0w;
-			sourceTree = "<group>";
-		};
-		BED344EB25D4BF37004A03D2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				BED344EC25D4BF37004A03D2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		BEEC9A8925D5CE320023EEDA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BED344E125D4BF33004A03D2 /* v1rosaSn0w */ = {
+		BEEC9A9625D5D02E0023EEDA /* v1rosaSn0w */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BED344F125D4BF37004A03D2 /* Build configuration list for PBXNativeTarget "v1rosaSn0w" */;
+			buildConfigurationList = BEEC9AB025D5D0330023EEDA /* Build configuration list for PBXNativeTarget "v1rosaSn0w" */;
 			buildPhases = (
-				BED344DE25D4BF33004A03D2 /* Sources */,
-				BED344DF25D4BF33004A03D2 /* Frameworks */,
-				BED344E025D4BF33004A03D2 /* Resources */,
+				BEEC9A9325D5D02E0023EEDA /* Sources */,
+				BEEC9A9425D5D02E0023EEDA /* Frameworks */,
+				BEEC9A9525D5D02E0023EEDA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = v1rosaSn0w;
-			packageProductDependencies = (
-				BEEC9A8A25D5CE320023EEDA /* cicutavirosawrap */,
-			);
 			productName = v1rosaSn0w;
-			productReference = BED344E225D4BF33004A03D2 /* v1rosaSn0w.app */;
+			productReference = BEEC9A9725D5D02E0023EEDA /* v1rosaSn0w.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BED344DA25D4BF33004A03D2 /* Project object */ = {
+		BEEC9A8F25D5D02E0023EEDA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					BED344E125D4BF33004A03D2 = {
+					BEEC9A9625D5D02E0023EEDA = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = BED344DD25D4BF33004A03D2 /* Build configuration list for PBXProject "v1rosaSn0w" */;
+			buildConfigurationList = BEEC9A9225D5D02E0023EEDA /* Build configuration list for PBXProject "v1rosaSn0w" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,45 +117,64 @@
 				en,
 				Base,
 			);
-			mainGroup = BED344D925D4BF33004A03D2;
-			packageReferences = (
-				20E9566C25D5BC870062C0CA /* XCRemoteSwiftPackageReference "testwrapper" */,
-			);
-			productRefGroup = BED344E325D4BF33004A03D2 /* Products */;
+			mainGroup = BEEC9A8E25D5D02E0023EEDA;
+			productRefGroup = BEEC9A9825D5D02E0023EEDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BED344E125D4BF33004A03D2 /* v1rosaSn0w */,
+				BEEC9A9625D5D02E0023EEDA /* v1rosaSn0w */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BED344E025D4BF33004A03D2 /* Resources */ = {
+		BEEC9A9525D5D02E0023EEDA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BED344ED25D4BF37004A03D2 /* Preview Assets.xcassets in Resources */,
-				BED344EA25D4BF37004A03D2 /* Assets.xcassets in Resources */,
+				BEEC9AAA25D5D0330023EEDA /* LaunchScreen.storyboard in Resources */,
+				BEEC9AA725D5D0330023EEDA /* Assets.xcassets in Resources */,
+				BEEC9AA525D5D02E0023EEDA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BED344DE25D4BF33004A03D2 /* Sources */ = {
+		BEEC9A9325D5D02E0023EEDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BED344E825D4BF33004A03D2 /* ContentView.swift in Sources */,
-				BED344E625D4BF33004A03D2 /* v1rosaSn0wApp.swift in Sources */,
+				BEEC9AA225D5D02E0023EEDA /* ViewController.m in Sources */,
+				BEEC9A9C25D5D02E0023EEDA /* AppDelegate.m in Sources */,
+				BEEC9AAD25D5D0330023EEDA /* main.m in Sources */,
+				BEEC9A9F25D5D02E0023EEDA /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		BEEC9AA325D5D02E0023EEDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEC9AA425D5D02E0023EEDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEEC9AA825D5D0330023EEDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEC9AA925D5D0330023EEDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		BED344EF25D4BF37004A03D2 /* Debug */ = {
+		BEEC9AAE25D5D0330023EEDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,12 +230,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		BED344F025D4BF37004A03D2 /* Release */ = {
+		BEEC9AAF25D5D0330023EEDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,50 +282,40 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		BED344F225D4BF37004A03D2 /* Debug */ = {
+		BEEC9AB125D5D0330023EEDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"v1rosaSn0w/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = v1rosaSn0w/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.v1rosaTeam.v1rosaSn0w;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BED344F325D4BF37004A03D2 /* Release */ = {
+		BEEC9AB225D5D0330023EEDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"v1rosaSn0w/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = v1rosaSn0w/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.v1rosaTeam.v1rosaSn0w;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -323,44 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BED344DD25D4BF33004A03D2 /* Build configuration list for PBXProject "v1rosaSn0w" */ = {
+		BEEC9A9225D5D02E0023EEDA /* Build configuration list for PBXProject "v1rosaSn0w" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BED344EF25D4BF37004A03D2 /* Debug */,
-				BED344F025D4BF37004A03D2 /* Release */,
+				BEEC9AAE25D5D0330023EEDA /* Debug */,
+				BEEC9AAF25D5D0330023EEDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BED344F125D4BF37004A03D2 /* Build configuration list for PBXNativeTarget "v1rosaSn0w" */ = {
+		BEEC9AB025D5D0330023EEDA /* Build configuration list for PBXNativeTarget "v1rosaSn0w" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BED344F225D4BF37004A03D2 /* Debug */,
-				BED344F325D4BF37004A03D2 /* Release */,
+				BEEC9AB125D5D0330023EEDA /* Debug */,
+				BEEC9AB225D5D0330023EEDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		20E9566C25D5BC870062C0CA /* XCRemoteSwiftPackageReference "testwrapper" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/K0stad1n/testwrapper.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		BEEC9A8A25D5CE320023EEDA /* cicutavirosawrap */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 20E9566C25D5BC870062C0CA /* XCRemoteSwiftPackageReference "testwrapper" */;
-			productName = cicutavirosawrap;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = BED344DA25D4BF33004A03D2 /* Project object */;
+	rootObject = BEEC9A8F25D5D02E0023EEDA /* Project object */;
 }
