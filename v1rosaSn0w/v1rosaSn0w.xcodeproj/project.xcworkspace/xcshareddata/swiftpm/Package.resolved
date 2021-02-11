@@ -2,11 +2,11 @@
   "object": {
     "pins": [
       {
-        "package": "cicuta-virosawrap",
+        "package": "cicutavirosawrap",
         "repositoryURL": "https://github.com/K0stad1n/testwrapper.git",
         "state": {
           "branch": "main",
-          "revision": "c62dd48a9809782d3aa8c3f6ccbbd6ddac3d547a",
+          "revision": "a50a24b1120428846f42b484bd6f8dc1c330318c",
           "version": null
         }
       }

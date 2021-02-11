@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20E9566E25D5BC870062C0CA /* cicuta-virosawrap in Frameworks */ = {isa = PBXBuildFile; productRef = 20E9566D25D5BC870062C0CA /* cicuta-virosawrap */; };
 		BED344E625D4BF33004A03D2 /* v1rosaSn0wApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED344E525D4BF33004A03D2 /* v1rosaSn0wApp.swift */; };
 		BED344E825D4BF33004A03D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED344E725D4BF33004A03D2 /* ContentView.swift */; };
 		BED344EA25D4BF37004A03D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED344E925D4BF37004A03D2 /* Assets.xcassets */; };
 		BED344ED25D4BF37004A03D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED344EC25D4BF37004A03D2 /* Preview Assets.xcassets */; };
+		BEEC9A8B25D5CE320023EEDA /* cicutavirosawrap in Frameworks */ = {isa = PBXBuildFile; productRef = BEEC9A8A25D5CE320023EEDA /* cicutavirosawrap */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20E9566E25D5BC870062C0CA /* cicuta-virosawrap in Frameworks */,
+				BEEC9A8B25D5CE320023EEDA /* cicutavirosawrap in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +40,7 @@
 			children = (
 				BED344E425D4BF33004A03D2 /* v1rosaSn0w */,
 				BED344E325D4BF33004A03D2 /* Products */,
+				BEEC9A8925D5CE320023EEDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +72,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BEEC9A8925D5CE320023EEDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,7 +96,7 @@
 			);
 			name = v1rosaSn0w;
 			packageProductDependencies = (
-				20E9566D25D5BC870062C0CA /* cicuta-virosawrap */,
+				BEEC9A8A25D5CE320023EEDA /* cicutavirosawrap */,
 			);
 			productName = v1rosaSn0w;
 			productReference = BED344E225D4BF33004A03D2 /* v1rosaSn0w.app */;
@@ -347,10 +355,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		20E9566D25D5BC870062C0CA /* cicuta-virosawrap */ = {
+		BEEC9A8A25D5CE320023EEDA /* cicutavirosawrap */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 20E9566C25D5BC870062C0CA /* XCRemoteSwiftPackageReference "testwrapper" */;
-			productName = "cicuta-virosawrap";
+			productName = cicutavirosawrap;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import cicuta-virosawrap
+import cicutavirosawrap
 
 struct ContentView: View {
     var body: some View {
