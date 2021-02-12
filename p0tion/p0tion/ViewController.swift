@@ -7,7 +7,7 @@
 
 import UIKit
 import cicutavirosawrap
-import 
+//import commands
 
 class ViewController: UIViewController {
     
@@ -16,10 +16,10 @@ class ViewController: UIViewController {
     }
     
     @objc func testRootFunc(_ sender: UIButton) {
-        let task = NSTask()
-        task.launchPath = "/usr/bin/killall"
-        task.launch()
-        UINotificationFeedbackGenerator().notificationOccurred(.success)
+        //let task = NSTask()
+        //task.launchPath = "/usr/bin/killall"
+        //task.launch()
+        //UINotificationFeedbackGenerator().notificationOccurred(.success)
     }
 
     override func viewDidLoad() {

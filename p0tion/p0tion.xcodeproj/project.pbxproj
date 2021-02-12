@@ -14,7 +14,6 @@
 		BE0DE78425D6B5780097D35B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0DE78225D6B5780097D35B /* Main.storyboard */; };
 		BE0DE78625D6B57B0097D35B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0DE78525D6B57B0097D35B /* Assets.xcassets */; };
 		BE0DE78925D6B57B0097D35B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0DE78725D6B57B0097D35B /* LaunchScreen.storyboard */; };
-		BE829C1725D7155B00ACD68B /* Commands in Resources */ = {isa = PBXBuildFile; fileRef = BE829C1625D7155B00ACD68B /* Commands */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		BE0DE78525D6B57B0097D35B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE0DE78825D6B57B0097D35B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE0DE78A25D6B57B0097D35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE829C1625D7155B00ACD68B /* Commands */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Commands; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 		BE0DE77B25D6B5780097D35B /* p0tion */ = {
 			isa = PBXGroup;
 			children = (
-				BE829C1625D7155B00ACD68B /* Commands */,
 				BE0DE77C25D6B5780097D35B /* AppDelegate.swift */,
 				BE0DE77E25D6B5780097D35B /* SceneDelegate.swift */,
 				BE0DE78025D6B5780097D35B /* ViewController.swift */,
@@ -135,7 +132,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE829C1725D7155B00ACD68B /* Commands in Resources */,
 				BE0DE78925D6B57B0097D35B /* LaunchScreen.storyboard in Resources */,
 				BE0DE78625D6B57B0097D35B /* Assets.xcassets in Resources */,
 				BE0DE78425D6B5780097D35B /* Main.storyboard in Resources */,
