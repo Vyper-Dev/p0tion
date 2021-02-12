@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     @objc func testRootFunc(_ sender: UIButton) {
         let task = NSTask()
-        task.launchPath = "/usr/bin/killall"
+        task.launchPath = "/usr/bin/sbreload"
         task.launch()
         UINotificationFeedbackGenerator().notificationOccurred(.success)
     }
