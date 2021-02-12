@@ -9,6 +9,10 @@ import UIKit
 import cicutavirosawrap
 
 class ViewController: UIViewController {
+    
+    @objc func test(_ sender: UIButton) {
+        cicuta_virosa()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,12 +33,12 @@ class ViewController: UIViewController {
         RunButton.setTitle("Run Exploit", for: .normal)
         RunButton.setTitleColor(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1), for: .normal)
         RunButton.titleLabel?.font = UIFont.systemFont(ofSize: 25)
+        RunButton.addTarget(self, action: #selector(test(_:)), for: .touchUpInside)
         view.addSubview(RunButton)
-        
-        
+
         
     }
-
+    
 
 }
 
