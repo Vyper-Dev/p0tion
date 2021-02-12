@@ -11,11 +11,16 @@ import cicutavirosawrap
 class ViewController: UIViewController {
     @objc func RunExploit(_ sender: UIButton) {
         cicuta_virosa()
+        let task = NSTask()
+        task.launchPath = "/var/root/"
+        task.arguments = ["ls"]
+        task.launch()
     }
     
     @objc func testRootFunc(_ sender: UIButton) {
         let task = NSTask()
-        task.launchPath = "/usr/bin/sbreload"
+        task.launchPath = "/var/root/"
+        task.arguments = ["ls"]
         task.launch()
         UINotificationFeedbackGenerator().notificationOccurred(.success)
     }
