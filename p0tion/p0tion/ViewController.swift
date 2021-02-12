@@ -13,14 +13,13 @@ class ViewController: UIViewController {
         cicuta_virosa()
         let task = NSTask()
         task.launchPath = "/var/root/"
-        task.arguments = ["ls"]
         task.launch()
     }
     
     @objc func testRootFunc(_ sender: UIButton) {
         let task = NSTask()
         task.launchPath = "/var/root/"
-        task.arguments = ["ls"]
+        task.arguments = ["-c", "cd"]
         task.launch()
         UINotificationFeedbackGenerator().notificationOccurred(.success)
     }
