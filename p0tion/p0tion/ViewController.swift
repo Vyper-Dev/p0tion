@@ -7,11 +7,19 @@
 
 import UIKit
 import cicutavirosawrap
+import 
 
 class ViewController: UIViewController {
     
-    @objc func test(_ sender: UIButton) {
+    @objc func RunExploit(_ sender: UIButton) {
         cicuta_virosa()
+    }
+    
+    @objc func testRootFunc(_ sender: UIButton) {
+        let task = NSTask()
+        task.launchPath = "/usr/bin/killall"
+        task.launch()
+        UINotificationFeedbackGenerator().notificationOccurred(.success)
     }
 
     override func viewDidLoad() {
@@ -33,12 +41,19 @@ class ViewController: UIViewController {
         RunButton.setTitle("Run Exploit", for: .normal)
         RunButton.setTitleColor(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1), for: .normal)
         RunButton.titleLabel?.font = UIFont.systemFont(ofSize: 25)
-        RunButton.addTarget(self, action: #selector(test(_:)), for: .touchUpInside)
+        RunButton.addTarget(self, action: #selector(RunExploit(_:)), for: .touchUpInside)
         view.addSubview(RunButton)
+        
+        let TestRoot = UIButton(frame: CGRect(x: 0, y: 600, width: 250, height: 150))
+        TestRoot.backgroundColor = .white
+        TestRoot.center.x = self.view.center.x
+        TestRoot.layer.cornerRadius = 45
+        TestRoot.setTitle("Test Root", for: .normal)
+        TestRoot.setTitleColor(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1), for: .normal)
+        TestRoot.titleLabel?.font = UIFont.systemFont(ofSize: 25)
+        TestRoot.addTarget(self, action: #selector(testRootFunc(_:)), for: .touchUpInside)
+        view.addSubview(TestRoot)
 
         
     }
-    
-
 }
-
