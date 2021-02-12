@@ -7,16 +7,14 @@
 
 import UIKit
 import cicutavirosawrap
-//import commands
 
 class ViewController: UIViewController {
-    
     @objc func RunExploit(_ sender: UIButton) {
         cicuta_virosa()
     }
     
     @objc func testRootFunc(_ sender: UIButton) {
-        //let task = NSTask()
+        let task = NSTask()
         //task.launchPath = "/usr/bin/killall"
         //task.launch()
         //UINotificationFeedbackGenerator().notificationOccurred(.success)
@@ -44,7 +42,7 @@ class ViewController: UIViewController {
         RunButton.addTarget(self, action: #selector(RunExploit(_:)), for: .touchUpInside)
         view.addSubview(RunButton)
         
-        let TestRoot = UIButton(frame: CGRect(x: 0, y: 600, width: 250, height: 150))
+        let TestRoot = UIButton(frame: CGRect(x: 0, y: 40, width: 150, height: 100))
         TestRoot.backgroundColor = .white
         TestRoot.center.x = self.view.center.x
         TestRoot.layer.cornerRadius = 45
