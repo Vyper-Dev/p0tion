@@ -12,9 +12,9 @@ import Foundation
 class ViewController: UIViewController {
     @objc func RunExploit(_ sender: UIButton) {
         cicuta_virosa()
-        let task = NSTask()
-        task.launchPath = "/var/root/"
-        task.launch()
+        //let task = NSTask()
+        //task.launchPath = "/var/root/"
+        //task.launch()
     }
     
     @objc func testRootFunc(_ sender: UIButton) {
