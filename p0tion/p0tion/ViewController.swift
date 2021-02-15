@@ -12,6 +12,7 @@ import Foundation
 class ViewController: UIViewController {
     @objc func RunExploit(_ sender: UIButton) {
         cicuta_virosa()
+        sandbox()
         //let task = NSTask()
         //task.launchPath = "/var/root/"
         //task.launch()
