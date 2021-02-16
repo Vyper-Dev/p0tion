@@ -10,12 +10,10 @@ import cicutavirosawrap
 import Foundation
 
 class ViewController: UIViewController {
+    
     @objc func RunExploit(_ sender: UIButton) {
         cicuta_virosa()
         sandbox()
-        //let task = NSTask()
-        //task.launchPath = "/var/root/"
-        //task.launch()
     }
     
     @objc func testRootFunc(_ sender: UIButton) {
@@ -38,7 +36,7 @@ class ViewController: UIViewController {
         RunButton.backgroundColor = .white
         RunButton.center = self.view.center
         RunButton.layer.cornerRadius = 125
-        RunButton.setTitle("Run Exploit", for: .normal)
+        RunButton.setTitle("Jailbreak", for: .normal)
         RunButton.setTitleColor(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1), for: .normal)
         RunButton.titleLabel?.font = UIFont.systemFont(ofSize: 25)
         RunButton.addTarget(self, action: #selector(RunExploit(_:)), for: .touchUpInside)
@@ -53,7 +51,5 @@ class ViewController: UIViewController {
         TestRoot.titleLabel?.font = UIFont.systemFont(ofSize: 25)
         TestRoot.addTarget(self, action: #selector(testRootFunc(_:)), for: .touchUpInside)
         view.addSubview(TestRoot)
-
-        
     }
 }
