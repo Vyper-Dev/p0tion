@@ -20,6 +20,9 @@ class ViewController: UIViewController, WKUIDelegate {
     @objc func testRootFunc(_ sender: UIButton) {
         sandbox()
         unpacktarbootstrap()
+        unpacktarsileo()
+        dpkgconfigure()
+        sileoinstall()
     }
         
     override func viewDidLoad() {
