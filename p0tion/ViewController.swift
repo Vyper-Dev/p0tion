@@ -11,35 +11,6 @@ import WebKit
 import Foundation
 
 class ViewController: UIViewController, WKUIDelegate {
-   var webView: WKWebView!
-    
-    /*
-     
-   override func loadView() {
-      let webConfiguration = WKWebViewConfiguration()
-      webView = WKWebView(frame: .zero, configuration: webConfiguration)
-      webView.uiDelegate = self
-      view = webView
-   }*/
-    
-    /*@IBAction func unpacktarbootstrap() {
-        let args = ["tar", "-xzf", "/p0tion/bootstrap.tar.gz", "-C", "/"]
-        let argv: [UnsafeMutablePointer<CChar>?] = args.map { $0.withCString(strdup) }
-        defer { for case let arg? in argv { free(arg) } }
-            
-        var pid = pid_t(0)
-        var status = posix_spawn(&pid, "/p0tion/tar", nil, nil, argv + [nil], environ)
-        if status == 0 {
-            if waitpid(pid, &status, 0) == -1 {
-                perror("waitpid")
-            } else {
-                print("posix_spawn:", status)
-            }
-            return status = 0
-        }
-    }*/
-    
-    
     // DispatchQueue.global(qos: .background).async [use this to run as background task]
     @objc func RunExploit(_ sender: UIButton) {
         cicuta_virosa()
@@ -52,19 +23,7 @@ class ViewController: UIViewController, WKUIDelegate {
     }
         
     override func viewDidLoad() {
-        
-        //HTML
-        
-        super.viewDidLoad()
-        let htpath = Bundle.main.path(forResource: "index", ofType: "html")
-        let myURL = URL.init(fileURLWithPath: htpath!)
-        let myRequest = URLRequest(url: myURL)
-        webView.load(myRequest)
-        
-        
         //Actual stuff
-        
-            
         let Title = UILabel(frame: CGRect(x:0, y:200, width: 200, height: 100))
         Title.text = "p0tion"
         Title.font = UIFont.boldSystemFont(ofSize: 50)
@@ -92,12 +51,5 @@ class ViewController: UIViewController, WKUIDelegate {
         TestRoot.addTarget(self, action: #selector(testRootFunc(_:)), for: .touchUpInside)
         view.addSubview(TestRoot)
     }
-    
-    override func loadView() {
-        let webConfiguration = WKWebViewConfiguration()
-        webView = WKWebView(frame: .zero, configuration: webConfiguration)
-        webView.uiDelegate = self
-        view = webView
-   }
 }
 
