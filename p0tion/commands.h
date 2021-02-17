@@ -8,7 +8,6 @@
 #ifndef commands_h
 #define commands_h
 
-
 #endif /* commands_h */
 
 #import <Foundation/Foundation.h>

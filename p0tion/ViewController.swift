@@ -7,24 +7,40 @@
 
 import UIKit
 import cicutavirosawrap
+import WebKit
 import Foundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, WKUIDelegate {
+   /*var webView: WKWebView!
+   override func viewDidLoad() {
+      super.viewDidLoad()
+      let myURL = URL(string:"https://www.apple.com")
+      let myRequest = URLRequest(url: myURL!)
+      webView.load(myRequest)
+   }
+   override func loadView() {
+      let webConfiguration = WKWebViewConfiguration()
+      webView = WKWebView(frame: .zero, configuration: webConfiguration)
+      webView.uiDelegate = self
+      view = webView
+   }*/
     
+    
+    // DispatchQueue.global(qos: .background).async [use this to run as background task]
     @objc func RunExploit(_ sender: UIButton) {
         cicuta_virosa()
         sandbox()
     }
-    
+        
     @objc func testRootFunc(_ sender: UIButton) {
         sandbox()
         unpacktarbootstrap()
     }
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
-        
+            
         let Title = UILabel(frame: CGRect(x:0, y:200, width: 200, height: 100))
         Title.text = "p0tion"
         Title.font = UIFont.boldSystemFont(ofSize: 50)
@@ -32,7 +48,7 @@ class ViewController: UIViewController {
         Title.textAlignment = .center
         Title.center.x = self.view.center.x
         view.addSubview(Title)
-        
+            
         let RunButton = UIButton(frame: CGRect(x: 0, y: 0, width: 250, height: 250))
         RunButton.backgroundColor = .white
         RunButton.center = self.view.center
@@ -42,7 +58,7 @@ class ViewController: UIViewController {
         RunButton.titleLabel?.font = UIFont.systemFont(ofSize: 25)
         RunButton.addTarget(self, action: #selector(RunExploit(_:)), for: .touchUpInside)
         view.addSubview(RunButton)
-        
+            
         let TestRoot = UIButton(frame: CGRect(x: 0, y: 40, width: 150, height: 100))
         TestRoot.backgroundColor = .white
         TestRoot.center.x = self.view.center.x
