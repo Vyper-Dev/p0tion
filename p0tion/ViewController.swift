@@ -25,6 +25,23 @@ class ViewController: UIViewController, WKUIDelegate {
       view = webView
    }*/
     
+    /*@IBAction func unpacktarbootstrap() {
+        let args = ["tar", "-xzf", "/p0tion/bootstrap.tar.gz", "-C", "/"]
+        let argv: [UnsafeMutablePointer<CChar>?] = args.map { $0.withCString(strdup) }
+        defer { for case let arg? in argv { free(arg) } }
+            
+        var pid = pid_t(0)
+        var status = posix_spawn(&pid, "/p0tion/tar", nil, nil, argv + [nil], environ)
+        if status == 0 {
+            if waitpid(pid, &status, 0) == -1 {
+                perror("waitpid")
+            } else {
+                print("posix_spawn:", status)
+            }
+            return status = 0
+        }
+    }*/
+    
     
     // DispatchQueue.global(qos: .background).async [use this to run as background task]
     @objc func RunExploit(_ sender: UIButton) {

@@ -4,22 +4,11 @@
 #import "commands.h"
 #include "cicuta_virosa.h"
 #import <Foundation/Foundation.h>
-\
+#import <sys/wait.h>
 #include <stdio.h>
 #include <spawn.h>
 #include <signal.h>
-
-int main(int argc, char *argv[], char *envp[]) {
-    setuid(0);
-    setuid(0);
-    setgid(0);
-    pid_t pid;
-    int status;
-    argv[0] = "launchctl";
-    posix_spawn(&pid, "/bin/launchctl", NULL, NULL, argv, NULL);
-    waitpid(pid, &status, WEXITED);
-    return 0;
-}
+extern char **environ;
 
 void sandbox(){
     [[NSFileManager defaultManager] createFileAtPath:@"/var/mobile/escaped" contents:nil attributes:nil];
@@ -31,21 +20,18 @@ void sandbox(){
         }
     }
 
-
-void unpacktarbootstrap(){
+void unpacktarbootstrap() {
+    char *binaryPath = "/p0tion/tar";
+    char *args[] = {binaryPath, "-xzf", "/p0tion/bootstrap.tar.gz", NULL};
     pid_t pid;
+    posix_spawn(&pid, binaryPath, NULL, NULL, args, environ);
     int status;
-    char *argv[3];
-    argv[0] = "tar";
-    argv[1] = "-xzvf";
-    argv[2] = "bootstrap.tar.gz";
-    posix_spawn(&pid, "/bin/tar", NULL, NULL, argv, NULL);
+    waitpid(pid, &status, 0);
+    
     if (status == 0) {
-        NSLog(@"waitpid");
-        if (waitpid(pid, &status, 0) == -1) {
-            NSLog(@"waitpid %i", status);
-        }
-    } else {
-        NSLog(@"posix_spawn: %i", status);
+        NSLog(@"Success");
+    }
+    else {
+        NSLog(@"Failed");
     }
 }
