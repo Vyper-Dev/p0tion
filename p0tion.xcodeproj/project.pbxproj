@@ -11,6 +11,7 @@
 		20BCADC625DC7DA400EBC5F5 /* bootstrap.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 20BCADBE25DC7DA100EBC5F5 /* bootstrap.tar.gz */; };
 		20BCADC825DC7DA400EBC5F5 /* tar in Resources */ = {isa = PBXBuildFile; fileRef = 20BCADC025DC7DA100EBC5F5 /* tar */; };
 		20BCADCA25DC7DA400EBC5F5 /* org.coolstar.sileo_1.6.0_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BCADC225DC7DA200EBC5F5 /* org.coolstar.sileo_1.6.0_iphoneos-arm.deb */; };
+		9D9599E525DD6C7800D3430E /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 9D9599E425DD6C7800D3430E /* index.html */; };
 		BE0DE77D25D6B5780097D35B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0DE77C25D6B5780097D35B /* AppDelegate.swift */; };
 		BE0DE77F25D6B5780097D35B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0DE77E25D6B5780097D35B /* SceneDelegate.swift */; };
 		BE0DE78125D6B5780097D35B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0DE78025D6B5780097D35B /* ViewController.swift */; };
@@ -24,7 +25,7 @@
 		20BCADC025DC7DA100EBC5F5 /* tar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tar; sourceTree = "<group>"; };
 		20BCADC225DC7DA200EBC5F5 /* org.coolstar.sileo_1.6.0_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "org.coolstar.sileo_1.6.0_iphoneos-arm.deb"; sourceTree = "<group>"; };
 		20C4A97D25D7295F006885C7 /* p0tion-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "p0tion-Bridging-Header.h"; sourceTree = "<group>"; };
-		9D92E26B25DC815100B00837 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		9D9599E425DD6C7800D3430E /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = dist/index.html; sourceTree = "<group>"; };
 		BE0DE77925D6B5780097D35B /* p0tion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = p0tion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0DE77C25D6B5780097D35B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE0DE77E25D6B5780097D35B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,10 +90,10 @@
 				BE0DE77E25D6B5780097D35B /* SceneDelegate.swift */,
 				BE0DE78025D6B5780097D35B /* ViewController.swift */,
 				20BCADBE25DC7DA100EBC5F5 /* bootstrap.tar.gz */,
+				9D9599E425DD6C7800D3430E /* index.html */,
 				20BCADC025DC7DA100EBC5F5 /* tar */,
 				BE0DE78225D6B5780097D35B /* Main.storyboard */,
 				BE0DE78525D6B57B0097D35B /* Assets.xcassets */,
-				9D92E26A25DC815100B00837 /* dist */,
 				BE0DE78725D6B57B0097D35B /* LaunchScreen.storyboard */,
 				BE54FAEC25D72B0600E398B8 /* commands.h */,
 				BE0DE78A25D6B57B0097D35B /* Info.plist */,
@@ -166,9 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE0DE78925D6B57B0097D35B /* LaunchScreen.storyboard in Resources */,
-				9D92E26E25DC815100B00837 /* index.html in Resources */,
 				BE0DE78625D6B57B0097D35B /* Assets.xcassets in Resources */,
 				20BCADC625DC7DA400EBC5F5 /* bootstrap.tar.gz in Resources */,
+				9D9599E525DD6C7800D3430E /* index.html in Resources */,
 				BE0DE78425D6B5780097D35B /* Main.storyboard in Resources */,
 				20BCADC825DC7DA400EBC5F5 /* tar in Resources */,
 			);

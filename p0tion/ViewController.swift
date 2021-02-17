@@ -11,13 +11,10 @@ import WebKit
 import Foundation
 
 class ViewController: UIViewController, WKUIDelegate {
-   /*var webView: WKWebView!
-   override func viewDidLoad() {
-      super.viewDidLoad()
-      let myURL = URL(string:"https://www.apple.com")
-      let myRequest = URLRequest(url: myURL!)
-      webView.load(myRequest)
-   }
+   var webView: WKWebView!
+    
+    /*
+     
    override func loadView() {
       let webConfiguration = WKWebViewConfiguration()
       webView = WKWebView(frame: .zero, configuration: webConfiguration)
@@ -55,8 +52,18 @@ class ViewController: UIViewController, WKUIDelegate {
     }
         
     override func viewDidLoad() {
+        
+        //HTML
+        
         super.viewDidLoad()
-        view.backgroundColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
+        let htpath = Bundle.main.path(forResource: "index", ofType: "html")
+        let myURL = URL.init(fileURLWithPath: htpath!)
+        let myRequest = URLRequest(url: myURL)
+        webView.load(myRequest)
+        
+        
+        //Actual stuff
+        
             
         let Title = UILabel(frame: CGRect(x:0, y:200, width: 200, height: 100))
         Title.text = "p0tion"
@@ -67,11 +74,10 @@ class ViewController: UIViewController, WKUIDelegate {
         view.addSubview(Title)
             
         let RunButton = UIButton(frame: CGRect(x: 0, y: 0, width: 250, height: 250))
-        RunButton.backgroundColor = .white
         RunButton.center = self.view.center
         RunButton.layer.cornerRadius = 125
         RunButton.setTitle("Jailbreak", for: .normal)
-        RunButton.setTitleColor(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1), for: .normal)
+        RunButton.setTitleColor(.white, for: .normal)
         RunButton.titleLabel?.font = UIFont.systemFont(ofSize: 25)
         RunButton.addTarget(self, action: #selector(RunExploit(_:)), for: .touchUpInside)
         view.addSubview(RunButton)
@@ -81,7 +87,7 @@ class ViewController: UIViewController, WKUIDelegate {
         TestRoot.center.x = self.view.center.x
         TestRoot.layer.cornerRadius = 45
         TestRoot.setTitle("Test Root", for: .normal)
-        TestRoot.setTitleColor(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1), for: .normal)
+        TestRoot.setTitleColor(.white, for: .normal)
         TestRoot.titleLabel?.font = UIFont.systemFont(ofSize: 25)
         TestRoot.addTarget(self, action: #selector(testRootFunc(_:)), for: .touchUpInside)
         view.addSubview(TestRoot)
@@ -92,6 +98,6 @@ class ViewController: UIViewController, WKUIDelegate {
         webView = WKWebView(frame: .zero, configuration: webConfiguration)
         webView.uiDelegate = self
         view = webView
-        
    }
 }
+
