@@ -20,6 +20,17 @@ void sandbox(){
         }
     }
 
+// Re Write
+
+
+/* new code*/
+
+
+//End
+
+
+
+/*
 void unpacktarbootstrap() {
     char *binaryPath = "/p0tion/tar";
     char *args[] = {binaryPath, "-xzf", "/p0tion/bootstrap.tar.gz", NULL};
@@ -79,3 +90,4 @@ void sileoinstall(){
         NSLog(@"Could not install sileo. posix_spawn: %i", status);
     }
 }
+*/
