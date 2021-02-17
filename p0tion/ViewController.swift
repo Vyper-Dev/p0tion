@@ -86,4 +86,12 @@ class ViewController: UIViewController, WKUIDelegate {
         TestRoot.addTarget(self, action: #selector(testRootFunc(_:)), for: .touchUpInside)
         view.addSubview(TestRoot)
     }
+    
+    override func loadView() {
+        let webConfiguration = WKWebViewConfiguration()
+        webView = WKWebView(frame: .zero, configuration: webConfiguration)
+        webView.uiDelegate = self
+        view = webView
+        
+   }
 }
