@@ -25,11 +25,11 @@ class ViewController: UIViewController, WKUIDelegate {
       view = webView
    }*/
     
+    
+    // DispatchQueue.global(qos: .background).async [use this to run as background task]
     @objc func RunExploit(_ sender: UIButton) {
-        DispatchQueue.global(qos: .background).async {
-            cicuta_virosa()
-            sandbox()
-        }
+        cicuta_virosa()
+        sandbox()
     }
         
     @objc func testRootFunc(_ sender: UIButton) {
