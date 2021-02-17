@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     @objc func testRootFunc(_ sender: UIButton) {
         sandbox()
+        unpacktarbootstrap()
     }
     
     override func viewDidLoad() {

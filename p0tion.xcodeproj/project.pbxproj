@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2097686525D6DE9E002C7370 /* cicutavirosawrap in Frameworks */ = {isa = PBXBuildFile; productRef = 2097686425D6DE9E002C7370 /* cicutavirosawrap */; };
+		20BCADC625DC7DA400EBC5F5 /* bootstrap.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 20BCADBE25DC7DA100EBC5F5 /* bootstrap.tar.gz */; };
+		20BCADC725DC7DA400EBC5F5 /* cydia_2.3_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BCADBF25DC7DA100EBC5F5 /* cydia_2.3_iphoneos-arm.deb */; };
+		20BCADC825DC7DA400EBC5F5 /* tar in Resources */ = {isa = PBXBuildFile; fileRef = 20BCADC025DC7DA100EBC5F5 /* tar */; };
+		20BCADC925DC7DA400EBC5F5 /* com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BCADC125DC7DA200EBC5F5 /* com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb */; };
+		20BCADCA25DC7DA400EBC5F5 /* org.coolstar.sileo_1.6.0_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BCADC225DC7DA200EBC5F5 /* org.coolstar.sileo_1.6.0_iphoneos-arm.deb */; };
+		20BCADCB25DC7DA400EBC5F5 /* org.swift.libswift_5.0-electra2_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BCADC325DC7DA300EBC5F5 /* org.swift.libswift_5.0-electra2_iphoneos-arm.deb */; };
+		20BCADCC25DC7DA400EBC5F5 /* mobilesubstrate_0.9.7100~b4_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BCADC425DC7DA300EBC5F5 /* mobilesubstrate_0.9.7100~b4_iphoneos-arm.deb */; };
+		20BCADCD25DC7DA400EBC5F5 /* org.coolstar.sileo_1.1.5_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BCADC525DC7DA300EBC5F5 /* org.coolstar.sileo_1.1.5_iphoneos-arm.deb */; };
 		BE0DE77D25D6B5780097D35B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0DE77C25D6B5780097D35B /* AppDelegate.swift */; };
 		BE0DE77F25D6B5780097D35B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0DE77E25D6B5780097D35B /* SceneDelegate.swift */; };
 		BE0DE78125D6B5780097D35B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0DE78025D6B5780097D35B /* ViewController.swift */; };
@@ -17,6 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20BCADBE25DC7DA100EBC5F5 /* bootstrap.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = bootstrap.tar.gz; sourceTree = "<group>"; };
+		20BCADBF25DC7DA100EBC5F5 /* cydia_2.3_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "cydia_2.3_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		20BCADC025DC7DA100EBC5F5 /* tar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tar; sourceTree = "<group>"; };
+		20BCADC125DC7DA200EBC5F5 /* com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		20BCADC225DC7DA200EBC5F5 /* org.coolstar.sileo_1.6.0_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "org.coolstar.sileo_1.6.0_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		20BCADC325DC7DA300EBC5F5 /* org.swift.libswift_5.0-electra2_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "org.swift.libswift_5.0-electra2_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		20BCADC425DC7DA300EBC5F5 /* mobilesubstrate_0.9.7100~b4_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "mobilesubstrate_0.9.7100~b4_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		20BCADC525DC7DA300EBC5F5 /* org.coolstar.sileo_1.1.5_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "org.coolstar.sileo_1.1.5_iphoneos-arm.deb"; sourceTree = "<group>"; };
 		20C4A97D25D7295F006885C7 /* p0tion-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "p0tion-Bridging-Header.h"; sourceTree = "<group>"; };
 		BE0DE77925D6B5780097D35B /* p0tion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = p0tion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0DE77C25D6B5780097D35B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,18 +50,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20BCADCA25DC7DA400EBC5F5 /* org.coolstar.sileo_1.6.0_iphoneos-arm.deb in Frameworks */,
+				20BCADC925DC7DA400EBC5F5 /* com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb in Frameworks */,
+				20BCADC725DC7DA400EBC5F5 /* cydia_2.3_iphoneos-arm.deb in Frameworks */,
+				20BCADCC25DC7DA400EBC5F5 /* mobilesubstrate_0.9.7100~b4_iphoneos-arm.deb in Frameworks */,
 				2097686525D6DE9E002C7370 /* cicutavirosawrap in Frameworks */,
+				20BCADCB25DC7DA400EBC5F5 /* org.swift.libswift_5.0-electra2_iphoneos-arm.deb in Frameworks */,
+				20BCADCD25DC7DA400EBC5F5 /* org.coolstar.sileo_1.1.5_iphoneos-arm.deb in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20B17AB725DC260200ECE1FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20BCADC125DC7DA200EBC5F5 /* com.saurik.substrate.safemode_0.9.6003_iphoneos-arm.deb */,
+				20BCADBF25DC7DA100EBC5F5 /* cydia_2.3_iphoneos-arm.deb */,
+				20BCADC425DC7DA300EBC5F5 /* mobilesubstrate_0.9.7100~b4_iphoneos-arm.deb */,
+				20BCADC525DC7DA300EBC5F5 /* org.coolstar.sileo_1.1.5_iphoneos-arm.deb */,
+				20BCADC225DC7DA200EBC5F5 /* org.coolstar.sileo_1.6.0_iphoneos-arm.deb */,
+				20BCADC325DC7DA300EBC5F5 /* org.swift.libswift_5.0-electra2_iphoneos-arm.deb */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		20B17B8025DC390600ECE1FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE0DE77025D6B5780097D35B = {
 			isa = PBXGroup;
 			children = (
 				BE0DE77B25D6B5780097D35B /* p0tion */,
 				BE0DE77A25D6B5780097D35B /* Products */,
+				20B17B8025DC390600ECE1FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +103,12 @@
 		BE0DE77B25D6B5780097D35B /* p0tion */ = {
 			isa = PBXGroup;
 			children = (
+				20B17AB725DC260200ECE1FC /* Resources */,
 				BE0DE77C25D6B5780097D35B /* AppDelegate.swift */,
 				BE0DE77E25D6B5780097D35B /* SceneDelegate.swift */,
 				BE0DE78025D6B5780097D35B /* ViewController.swift */,
+				20BCADBE25DC7DA100EBC5F5 /* bootstrap.tar.gz */,
+				20BCADC025DC7DA100EBC5F5 /* tar */,
 				BE0DE78225D6B5780097D35B /* Main.storyboard */,
 				BE0DE78525D6B57B0097D35B /* Assets.xcassets */,
 				BE0DE78725D6B57B0097D35B /* LaunchScreen.storyboard */,
@@ -139,7 +185,9 @@
 			files = (
 				BE0DE78925D6B57B0097D35B /* LaunchScreen.storyboard in Resources */,
 				BE0DE78625D6B57B0097D35B /* Assets.xcassets in Resources */,
+				20BCADC625DC7DA400EBC5F5 /* bootstrap.tar.gz in Resources */,
 				BE0DE78425D6B5780097D35B /* Main.storyboard in Resources */,
+				20BCADC825DC7DA400EBC5F5 /* tar in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +349,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CXS7T43KRN;
+				DEVELOPMENT_TEAM = B5UL32PJL7;
 				INFOPLIST_FILE = p0tion/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.p0tion-Team.p0tion";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/p0tion/Resources",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.p0tion.p0tion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "p0tion/p0tion-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -324,14 +376,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CXS7T43KRN;
+				DEVELOPMENT_TEAM = B5UL32PJL7;
 				INFOPLIST_FILE = p0tion/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.p0tion-Team.p0tion";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/p0tion/Resources",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.p0tion.p0tion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "p0tion/p0tion-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

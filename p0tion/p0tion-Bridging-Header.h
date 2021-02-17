@@ -28,5 +28,24 @@ void sandbox(){
         [[NSFileManager defaultManager] removeItemAtPath:@"/var/mobile/escaped" error:nil];
     } else {
         NSLog(@"Could not escape the sandbox\n");
+        }
+    }
+
+
+void unpacktarbootstrap(){
+    pid_t pid;
+    int status;
+    char *argv[3];
+    argv[0] = "tar";
+    argv[1] = "-xzvf";
+    argv[2] = "bootstrap.tar.gz";
+    posix_spawn(&pid, "/bin/tar", NULL, NULL, argv, NULL);
+    if (status == 0) {
+        NSLog(@"waitpid");
+        if (waitpid(pid, &status, 0) == -1) {
+            NSLog(@"waitpid %i", status);
+        }
+    } else {
+        NSLog(@"posix_spawn: %i", status);
     }
 }
